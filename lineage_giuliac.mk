@@ -26,8 +26,6 @@ TARGET_INCLUDE_AXFX := true
 
 PERF_GOV_SUPPORTED := true
 PERF_DEFAULT_GOV := walt
-GPU_FREQS_PATH := /sys/class/kgsl/kgsl-3d0/devfreq/available_frequencies
-GPU_MIN_FREQ_PATH := /sys/class/kgsl/kgsl-3d0/devfreq/min_freq
 
 # Device identifier
 PRODUCT_NAME := lineage_giuliac
